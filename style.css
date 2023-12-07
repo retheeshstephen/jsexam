@@ -1,0 +1,62 @@
+body {
+    background-color: #83b4e4;
+  }
+  
+  .container {
+    max-width: 600px;
+  }
+  
+  .list-group-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #e2f2ff; /* Light blue background color */
+  }
+  
+  .task-buttons {
+    display: flex;
+    gap: 5px;
+  }
+  
+  .task-buttons button {
+    margin-left: 5px;
+  }
+  
+  .task-buttons button:first-child {
+    margin-right: auto;
+  }
+  
+  .task-buttons button:last-child {
+    margin-left: 0;
+  }
+  
+  /* Add some additional styling for a colorful appearance */
+  .task-text {
+    color: #333; /* Text color */
+  }
+  
+  .btn-warning {
+    background-color: #ffc107; /* Yellow background for "Edit" button */
+    border-color: #ffc107; /* Border color for "Edit" button */
+    color: #212529; /* Text color for "Edit" button */
+  }
+  
+  .btn-danger {
+    background-color: #dc3545; /* Red background for "Delete" button */
+    border-color: #dc3545; /* Border color for "Delete" button */
+    color: #fff; /* Text color for "Delete" button */
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
